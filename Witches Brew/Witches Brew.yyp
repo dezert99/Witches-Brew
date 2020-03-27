@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "10f643b9-e3bb-4c2c-a165-e49358117654",
+            "Value": {
+                "id": "a0d02ba5-e455-46aa-b54d-67867e4c5827",
+                "resourcePath": "sprites\/LaurenSprite\/LaurenSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1adf8546-0306-476f-af13-2d7005b4e46d",
             "Value": {
                 "id": "b82ef208-47fb-4bf7-855d-38e7204cca6e",
