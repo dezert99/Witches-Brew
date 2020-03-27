@@ -74,7 +74,7 @@
             "Key": "27d9529d-9a5f-40e6-831f-5132e7086447",
             "Value": {
                 "id": "06c09429-4e09-4a6f-ae8e-e567a6ace53f",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\\rm_master\\rm_master.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -116,6 +116,30 @@
                 "id": "4c73a298-6bf1-4f43-b38f-29b0fe498625",
                 "resourcePath": "views\/85f28eaf-6c6c-46ca-b660-d0fbf6c3514c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e6b17b9-acfa-4173-ac1f-5a2525f5f239",
+            "Value": {
+                "id": "93d5e46e-931a-47d9-bad6-ff7cda1b2805",
+                "resourcePath": "rooms\\rm_nicole\\rm_nicole.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9fcae8c1-ffa7-4ba5-9be3-2a9fbd296e21",
+            "Value": {
+                "id": "fbf246c4-2ce5-4352-8252-9ea5902fcad7",
+                "resourcePath": "rooms\\rm_lauren\\rm_lauren.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a3115b6a-234a-44c1-a0a2-3b3e00350446",
+            "Value": {
+                "id": "09a899b6-4519-4e37-b95e-051a2e23283b",
+                "resourcePath": "rooms\\rm_saul\\rm_saul.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -204,6 +228,14 @@
                 "id": "6ba01183-53a0-48f6-9d51-c49274a5fd12",
                 "resourcePath": "views\/f670a95f-c287-4348-b704-7239081ce460.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc4cfc36-3e5b-4896-9f72-6ec9c38f0d94",
+            "Value": {
+                "id": "6fc28d0b-f250-4bb5-9d12-576c0a85bfbe",
+                "resourcePath": "rooms\\rm_chris\\rm_chris.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
