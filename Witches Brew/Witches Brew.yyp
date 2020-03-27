@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "c82b7f18-0802-4737-bd5a-ed56f65949e2",
+            "Value": {
+                "id": "1217381e-b418-45e3-8899-c9b909a16796",
+                "resourcePath": "sprites\\spr_grass\\spr_grass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "87f36c4a-9b59-4642-87d3-c60f5c85f3f8",
