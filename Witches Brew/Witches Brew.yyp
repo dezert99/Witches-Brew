@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "164037a5-9d3f-46ee-b9b0-b5780c3e5c79",
-            "Value": {
-                "id": "6e06b1d4-bea2-4db6-82cd-808ff55c1a24",
-                "resourcePath": "sprites\/spr_nicoleTest\/spr_nicoleTest.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1adf8546-0306-476f-af13-2d7005b4e46d",
             "Value": {
                 "id": "b82ef208-47fb-4bf7-855d-38e7204cca6e",
@@ -82,7 +74,7 @@
             "Key": "27d9529d-9a5f-40e6-831f-5132e7086447",
             "Value": {
                 "id": "06c09429-4e09-4a6f-ae8e-e567a6ace53f",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/rm_master\/rm_master.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -121,7 +113,7 @@
         {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
-                "id": "e90b5038-4ff4-43d2-9d26-94e59cbb93eb",
+                "id": "948972e5-389a-4dd9-b69b-5a94e18fa6ad",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
             }
@@ -129,7 +121,7 @@
         {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
-                "id": "2c354ac7-d567-4810-8d7b-8cee305afe15",
+                "id": "e3853f7c-f148-4a16-806c-277ef6d5457e",
                 "resourcePath": "options\/windowsuap\/options_windowsuap.yy",
                 "resourceType": "GMWindowsUAPOptions"
             }
@@ -137,7 +129,7 @@
         {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
-                "id": "72c6c6df-ced3-490d-9979-4fa1ffee3183",
+                "id": "e5e9860e-7f38-43e9-94d2-3a26091536e7",
                 "resourcePath": "options\/ios\/options_ios.yy",
                 "resourceType": "GMiOSOptions"
             }
@@ -153,17 +145,41 @@
         {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
-                "id": "df362b44-021e-426e-93bc-73f8654eb832",
+                "id": "f8523420-b61a-4ddf-9810-8eacf4d47845",
                 "resourcePath": "options\/tvos\/options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
             }
         },
         {
+            "Key": "9e6b17b9-acfa-4173-ac1f-5a2525f5f239",
+            "Value": {
+                "id": "93d5e46e-931a-47d9-bad6-ff7cda1b2805",
+                "resourcePath": "rooms\/rm_nicole\/rm_nicole.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9fcae8c1-ffa7-4ba5-9be3-2a9fbd296e21",
+            "Value": {
+                "id": "fbf246c4-2ce5-4352-8252-9ea5902fcad7",
+                "resourcePath": "rooms\/rm_lauren\/rm_lauren.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
-                "id": "4ae763d0-da0c-4d9d-9734-6f33d55afe79",
+                "id": "32057556-d114-44f5-9b08-4a9c57124662",
                 "resourcePath": "options\/amazonfire\/options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a3115b6a-234a-44c1-a0a2-3b3e00350446",
+            "Value": {
+                "id": "09a899b6-4519-4e37-b95e-051a2e23283b",
+                "resourcePath": "rooms\/rm_saul\/rm_saul.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -223,9 +239,17 @@
             }
         },
         {
+            "Key": "e266492c-802e-4464-a92c-312748b8e97b",
+            "Value": {
+                "id": "fa59ea2e-32e8-4e5d-8900-ba8ce25674c1",
+                "resourcePath": "sprites\/spr_nicoleTest\/spr_nicoleTest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
-                "id": "6b385b57-18a1-4fd9-a4ec-c181f4fb01d3",
+                "id": "2c8b9cec-0224-430d-acfd-f7ef056d269a",
                 "resourcePath": "options\/android\/options_android.yy",
                 "resourceType": "GMAndroidOptions"
             }
@@ -260,6 +284,14 @@
                 "id": "6ba01183-53a0-48f6-9d51-c49274a5fd12",
                 "resourcePath": "views\/f670a95f-c287-4348-b704-7239081ce460.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc4cfc36-3e5b-4896-9f72-6ec9c38f0d94",
+            "Value": {
+                "id": "6fc28d0b-f250-4bb5-9d12-576c0a85bfbe",
+                "resourcePath": "rooms\/rm_chris\/rm_chris.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
