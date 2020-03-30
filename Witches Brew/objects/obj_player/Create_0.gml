@@ -4,3 +4,6 @@ run_speed = 3;
 spd = 0;
 x_spd = 0;
 y_spd = 0;
+
+x_frame = 0; 
+y_frame = 9;
