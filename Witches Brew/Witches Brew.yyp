@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3623c38c-3f8f-4ad3-b7d0-ef7d3d986f7b",
+            "Value": {
+                "id": "301e8539-ac48-4a86-a408-550dff6847c0",
+                "resourcePath": "sprites\/sprite12\/sprite12.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3afb6a73-7a67-4ded-a01b-ba18f5001fb4",
             "Value": {
                 "id": "b4b0d309-b5bf-480b-a07d-6c24596ad95c",
@@ -124,6 +132,14 @@
                 "id": "561344d5-a7ec-466e-bda8-1626dfde6811",
                 "resourcePath": "objects\/obj_collidable\/obj_collidable.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "536e69bf-730b-40e4-ba36-cf0d7163b304",
+            "Value": {
+                "id": "f30c5ebf-7255-4450-a2bd-b50d7f8cc0b3",
+                "resourcePath": "sprites\/spr_inventory_ui\/spr_inventory_ui.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "7c4b3458-df5e-47a8-8f2b-893a74d1b887",
+            "Value": {
+                "id": "c2029ab3-9908-4cc5-a28f-861884001ba1",
+                "resourcePath": "views\/7c4b3458-df5e-47a8-8f2b-893a74d1b887.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
                 "id": "e3853f7c-f148-4a16-806c-277ef6d5457e",
@@ -196,6 +220,14 @@
                 "id": "4c73a298-6bf1-4f43-b38f-29b0fe498625",
                 "resourcePath": "views\/85f28eaf-6c6c-46ca-b660-d0fbf6c3514c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d0cb601-5115-4adb-b172-05618537e274",
+            "Value": {
+                "id": "e4932f07-05bb-4372-b53c-02d980a5e360",
+                "resourcePath": "sprites\/spr_placeholder_items\/spr_placeholder_items.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -276,6 +308,14 @@
                 "id": "8ff93869-d185-4665-86aa-d7409ab12806",
                 "resourcePath": "views\/bf45b62c-3b65-474f-8144-bf475a170355.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5cc2fe8-644c-495d-8b35-5fb6dfc585c0",
+            "Value": {
+                "id": "8d896640-e0b8-4b27-b7fc-371ed838769e",
+                "resourcePath": "objects\/obj_inventory\/obj_inventory.yy",
+                "resourceType": "GMObject"
             }
         },
         {
