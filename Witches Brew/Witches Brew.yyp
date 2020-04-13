@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "d0198b25-1cf0-4eb8-901e-2daa3f186f37",
+            "Value": {
+                "id": "638730b6-28c1-4962-bde3-a8fdd7daa179",
+                "resourcePath": "rooms\/rm_chris2\/rm_chris2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e266492c-802e-4464-a92c-312748b8e97b",
             "Value": {
                 "id": "fa59ea2e-32e8-4e5d-8900-ba8ce25674c1",
