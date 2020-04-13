@@ -62,11 +62,11 @@ enum item {
 	height = 17 // allows us to get height of enumerator -- good trick
 }
 
-ds_inventory[# 0, 0] = item.bucket;
-ds_inventory[# 1, 0] = 1;
+//ds_inventory[# 0, 0] = item.bucket;
+//ds_inventory[# 1, 0] = 1;
 
-for(i = 0; i < inv_slots; i++){
-	ds_inventory[# 0, i] = irandom_range(1,item.height-1);
-	ds_inventory[# 1, i] = irandom_range(1,10);
-}
+//for(i = 0; i < inv_slots; i++){
+//	ds_inventory[# 0, i] = irandom_range(1,item.height-1);
+//	ds_inventory[# 1, i] = irandom_range(1,10);
+//}
 
