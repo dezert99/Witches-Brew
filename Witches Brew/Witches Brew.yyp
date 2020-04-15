@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0108a1e5-4394-4d10-9e5b-d3f5a427ca1f",
+            "Value": {
+                "id": "86beb8ae-d941-4401-b299-dddd5c76d0f2",
+                "resourcePath": "objects\\obj_player_Saul\\obj_player_Saul.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "10f643b9-e3bb-4c2c-a165-e49358117654",
             "Value": {
                 "id": "a0d02ba5-e455-46aa-b54d-67867e4c5827",
@@ -308,6 +316,14 @@
                 "id": "7b0de09d-f1f8-4fe1-83e5-8fdf16b1b444",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab85762a-8e8d-46c6-bd3e-6d20a316c180",
+            "Value": {
+                "id": "87ea9087-10e0-4ce2-ae8b-fca9002d4c74",
+                "resourcePath": "objects\\obj_manger\\obj_manger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
