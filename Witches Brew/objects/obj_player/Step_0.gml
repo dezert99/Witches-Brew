@@ -1,6 +1,6 @@
-/*
 
-sprleft = keyboard_check(ord("A"));
+
+left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
@@ -53,5 +53,3 @@ if(place_meeting(x,y+y_spd,obj_collidable)){
 
 x += x_spd;
 y += y_spd;
-
-*/
