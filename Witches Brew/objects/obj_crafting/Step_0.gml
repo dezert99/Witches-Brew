@@ -92,3 +92,18 @@ else if( ss_item != item.none){
 		selected_from = is_over_crafting ? "craft": "inventory";
 	}
 }
+
+if(keyboard_check_pressed(vk_enter)){
+	var craft_total = 0;
+	for(var i = 0 ; i<craft_slots; i++){
+		if(ds_crafting[# 0, i] != 0){
+			craft_total += (ds_crafting[# 0, i] *2) +37;
+		}
+	}
+	for(var i = 0; i < 2; i++ ){
+		if(ds_crafting_recipes[# 0, i] == craft_total){
+			
+			addToInventory1(ds_crafting_recipes[# 1, i], 1);	
+		}
+	}
+}

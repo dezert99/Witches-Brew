@@ -59,7 +59,11 @@ enum item {
 	potion = 14,
 	starfish = 15,
 	mushroom = 16,
-	height = 17 // allows us to get height of enumerator -- good trick
+	potion1 = 17,
+	potion2 = 18,
+	potion3 = 19,
+	potion4 = 20,
+	height = 21 // allows us to get height of enumerator -- good trick
 }
 
 //ds_inventory[# 0, 0] = item.bucket;

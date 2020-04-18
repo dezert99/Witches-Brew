@@ -50,18 +50,38 @@ isVisible = false;
 
 ds_inventory = ds_grid_create(2,inv_slots);
 ds_crafting = ds_grid_create(2,craft_slots);
+ds_crafting_recipes = ds_grid_create(2,2);
 
+//Chair
+ds_crafting_recipes[# 0, 0] = 116;
+ds_crafting_recipes[# 1, 0] = 11;
 
-//ds_inventory[# 0, 0] = item.bucket;
-//ds_inventory[# 1, 0] = 1;
+//Potion 4
+ds_crafting_recipes[# 0, 1] = 171;
+ds_crafting_recipes[# 1, 1] = 20;
 
-for(i = 0; i < 5; i++){
-	ds_inventory[# 0, i] = irandom_range(1,item.height-1);
-	ds_inventory[# 1, i] = irandom_range(1,10);
-}
+ds_inventory[# 0, 0] = item.wood;
+ds_inventory[# 1, 0] = 1;
 
-for(i = 0; i < 3; i++){
-	ds_crafting[# 0, i] = irandom_range(1,item.height-1);
-	ds_crafting[# 1, i] = irandom_range(1,10);
-}
+ds_inventory[# 0, 1] = item.axe;
+ds_inventory[# 1, 1] = 1;
+
+ds_inventory[# 0, 2] = item.starfish;
+ds_inventory[# 1, 2] = 1;
+
+ds_inventory[# 0, 3] = item.chilli;
+ds_inventory[# 1, 3] = 1;
+
+ds_inventory[# 0, 4] = item.bucket;
+ds_inventory[# 1, 4] = 1;
+
+//for(i = 0; i < 5; i++){
+//	ds_inventory[# 0, i] = irandom_range(1,item.height-1);
+//	ds_inventory[# 1, i] = irandom_range(1,10);
+//}
+
+//for(i = 0; i < 3; i++){
+//	ds_crafting[# 0, i] = irandom_range(1,item.height-1);
+//	ds_crafting[# 1, i] = irandom_range(1,10);
+//}
 
