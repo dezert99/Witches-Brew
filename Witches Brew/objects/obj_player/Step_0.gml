@@ -53,3 +53,7 @@ if(place_meeting(x,y+y_spd,obj_collidable)){
 
 x += x_spd;
 y += y_spd;
+
+
+// monster
+
