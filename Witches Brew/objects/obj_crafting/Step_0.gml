@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(ord("I"))){
+if(keyboard_check_pressed(ord("C"))){
 	isVisible = !isVisible;	
 }
 
@@ -102,8 +102,18 @@ if(keyboard_check_pressed(vk_enter)){
 	}
 	for(var i = 0; i < 2; i++ ){
 		if(ds_crafting_recipes[# 0, i] == craft_total){
-			
 			addToInventory1(ds_crafting_recipes[# 1, i], 1);	
+			for(var i = 0; i < 8; i++ ){
+				if(ds_crafting[# 0, i] != 0){
+					if(ds_crafting[# 1, i] == 1){
+						ds_crafting[# 1, i] = 0;
+						ds_crafting[# 0, i] = 0;
+					}
+					else {
+						ds_crafting[# 1, i] = ds_crafting[# 1, i]-1;
+					}
+				}
+			}
 		}
 	}
 }

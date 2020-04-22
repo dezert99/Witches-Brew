@@ -8,7 +8,8 @@
         "8d0cb601-5115-4adb-b172-05618537e274",
         "3623c38c-3f8f-4ad3-b7d0-ef7d3d986f7b",
         "c23527af-7cdd-4f32-84ff-3db83bcd221f",
-        "a2bba863-30ea-4c74-ad5c-82636012f7eb"
+        "a2bba863-30ea-4c74-ad5c-82636012f7eb",
+        "d23b7072-d086-418b-a529-8bdf95c6029f"
     ],
     "filterType": "GMSprite",
     "folderName": "inventory",
