@@ -54,9 +54,12 @@ if swi_di = 0 {
 // the monster will go back to its origin
 if swi_di == 0{
 	if not collision_circle(x + 0,y + 0,300, obj_player,false,true){
-		x = o_x;
-		y = o_y;
-		swi_di = 1
+		ret_spd = 2
+		move_towards_point(o_x,o_y, ret_spd)
+		
+	}
+	if x = o_x and y = o_y {
+		swi_di = 1;
 	}
 }
 
