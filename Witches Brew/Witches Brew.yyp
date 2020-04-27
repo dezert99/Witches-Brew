@@ -130,7 +130,7 @@
             "Key": "3e062172-9ae8-4ba5-b8be-a994c0df3d76",
             "Value": {
                 "id": "2afba330-e94c-4fc8-9ae5-077f099399cb",
-                "resourcePath": "tilesets\/tileset1\/tileset1.yy",
+                "resourcePath": "tilesets\/witches_brew_tileset\/witches_brew_tileset.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -459,6 +459,14 @@
             "Value": {
                 "id": "f46adb5e-546f-4452-a422-9264de6cf0f9",
                 "resourcePath": "sprites\/spr_inventory_ui_2\/spr_inventory_ui_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3c34615-a3c0-43e7-8471-bc23b4737c09",
+            "Value": {
+                "id": "e7cd509d-09cf-4d78-9776-a4484814c697",
+                "resourcePath": "sprites\/spr_tilesheet_new\/spr_tilesheet_new.yy",
                 "resourceType": "GMSprite"
             }
         },
