@@ -130,7 +130,7 @@
             "Key": "3d4d0f35-d46a-4d22-9729-b644a4287310",
             "Value": {
                 "id": "ef2c0e01-9374-4676-8e2d-f08f5d41724e",
-                "resourcePath": "rooms\\room8\\room8.yy",
+                "resourcePath": "rooms\\rm_map_01\\rm_map_01.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -140,6 +140,14 @@
                 "id": "2afba330-e94c-4fc8-9ae5-077f099399cb",
                 "resourcePath": "tilesets\/witches_brew_tileset\/witches_brew_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "45af7ff1-0395-4812-a47d-d8f8ee6d25c6",
+            "Value": {
+                "id": "05e12b2c-aefa-426f-a43b-b1bd0131e926",
+                "resourcePath": "rooms\\rm_map_02\\rm_map_02.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
