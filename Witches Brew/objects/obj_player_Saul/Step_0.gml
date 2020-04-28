@@ -1,17 +1,17 @@
 
-if keyboard_check_pressed(vk_up) {
+if keyboard_check(vk_up) {
 	y -= spd;
 }
 
-if keyboard_check_pressed(vk_down) {
+if keyboard_check(vk_down) {
 	y += spd;
 }
 
-if keyboard_check_pressed(vk_right){
+if keyboard_check(vk_right){
 	x += spd;
 }
 
-if keyboard_check_pressed(vk_left){
+if keyboard_check(vk_left){
 	x -= spd;
 }
 

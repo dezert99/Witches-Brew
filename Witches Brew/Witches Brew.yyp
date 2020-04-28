@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "287d247b-a3fc-4a5b-889f-e8ee419ce49e",
+            "Value": {
+                "id": "3241fe73-6b46-49f0-8620-8749139c1b72",
+                "resourcePath": "objects\\obj_py_s\\obj_py_s.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "318c1045-a45a-4af3-81a0-6d0db041b6c0",
+            "Value": {
+                "id": "4fe0d3ae-4d26-469f-9bb0-80728c98a066",
+                "resourcePath": "sprites\\spr_hp\\spr_hp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "352de9b1-f23d-4e69-b450-3e9e837d2c89",
             "Value": {
                 "id": "ea9f25bd-a7b6-4f18-b721-deb1bd1dad8f",
