@@ -9,7 +9,7 @@ while(!is_placed){
 	}
 }
 
-if(collision_rectangle(x,y,x+32*scale,y+32*scale,obj_player,true,false) && keyboard_check_pressed(ord("E"))){
+if(obj_player.pickup_timer <= 0 && collision_rectangle(x,y,x+32*scale,y+32*scale,obj_player,true,false) && keyboard_check_pressed(ord("E"))){
 	addToInventory(item_id, quantity);	
 	instance_destroy();
 }

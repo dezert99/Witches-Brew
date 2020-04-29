@@ -42,7 +42,7 @@
             "Key": "01278421-0c71-4aad-b20b-ed54ecc1d401",
             "Value": {
                 "id": "b4012bdb-0e29-4f72-b108-7abd7976a1bb",
-                "resourcePath": "rooms\\rm_house\\rm_house.yy",
+                "resourcePath": "rooms\/rm_house\/rm_house.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -322,7 +322,7 @@
             "Key": "85a0da8b-734a-490c-a531-7f03d742ad14",
             "Value": {
                 "id": "a25bd485-3610-4974-a8ed-872e08a7a632",
-                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourcePath": "objects\/obj_wall\/obj_wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "c8c425fb-6148-43e1-8236-5d53c9aebf27",
+            "Value": {
+                "id": "6f331652-ba84-4c0e-9cf5-89f6cb0f8f1e",
+                "resourcePath": "sprites\/spr_playersheet\/spr_playersheet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "87f36c4a-9b59-4642-87d3-c60f5c85f3f8",
@@ -527,19 +535,19 @@
             }
         },
         {
-            "Key": "cdfaebd6-c95e-4e02-9460-92085586ee95",
-            "Value": {
-                "id": "412777b1-b3c9-4fb6-b78e-d844f3ea4896",
-                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cd04d4a9-5d0f-4001-b84f-d15d20f4de62",
             "Value": {
                 "id": "d856c67e-7382-4db6-8187-f54e67d1f4dd",
                 "resourcePath": "sprites\/spr_items\/spr_items.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cdfaebd6-c95e-4e02-9460-92085586ee95",
+            "Value": {
+                "id": "412777b1-b3c9-4fb6-b78e-d844f3ea4896",
+                "resourcePath": "objects\/obj_teleport\/obj_teleport.yy",
+                "resourceType": "GMObject"
             }
         },
         {

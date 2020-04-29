@@ -65,14 +65,8 @@ if(pickup_slot != -1){
 			pickup_slot = -1;
 			selected_from = "";
 		}
-		else if (ss_item == from_grid[# 0, pickup_slot]){
+		else if (selected_slot == pickup_slot){
 			show_debug_message("Pickup case 2");
-			if(selected_slot != pickup_slot || from_grid != inv_grid){
-				inv_grid[# 1, selected_slot] += from_grid[# 1, pickup_slot];
-				
-				from_grid[# 0, pickup_slot] = item.none;
-				from_grid[# 1, pickup_slot] = 0;	
-			}
 			pickup_slot = -1;
 		}
 		else {
@@ -95,6 +89,8 @@ else if( ss_item != item.none){
 		var droppedobj = instance_create_depth(obj_player.x,obj_player.y,-100, obj_resource);
 		
 		droppedobj.item_id = inv_grid[# 0, selected_slot];
+		droppedobj.is_placed = true;
+		
 		inv_grid[# 0, selected_slot] = 0;
 		inv_grid[# 1, selected_slot] = 0;
 	}

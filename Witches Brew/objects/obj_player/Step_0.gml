@@ -17,13 +17,18 @@ else {
 	spd = norm_speed;	
 }
 
-x_spd = 0;
-y_spd = 0;
 
-y_spd = (down - up) * spd;
-if(y_spd == 0){
-	x_spd = (right - left) * spd;	
+
+if(pickup_timer <= 0){
+	x_spd = 0;
+	y_spd = 0;
+	
+	y_spd = (down - up) * spd;
+	if(y_spd == 0){
+		x_spd = (right - left) * spd;	
+	}
 }
+
 
 
 if(place_meeting(x+x_spd,y,obj_collidable)){
