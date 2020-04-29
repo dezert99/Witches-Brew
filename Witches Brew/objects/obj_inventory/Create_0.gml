@@ -38,7 +38,7 @@ y_buffer = 4;
 
 isVisible = false;
 
-ds_inventory = ds_grid_create(2,inv_slots);
+
 
 //Items
 enum item {

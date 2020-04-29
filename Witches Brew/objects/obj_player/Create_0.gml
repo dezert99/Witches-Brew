@@ -7,3 +7,11 @@ y_spd = 0;
 
 x_frame = 0; 
 y_frame = 9;
+
+pickup_timer = 0;
+pickup_timer_max = 30;
+
+inv_slots = 17;
+
+globalvar ds_inventory;
+ds_inventory = ds_grid_create(2,inv_slots);

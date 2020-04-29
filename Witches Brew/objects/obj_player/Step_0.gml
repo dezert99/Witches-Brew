@@ -50,9 +50,14 @@ if(place_meeting(x,y+y_spd,obj_collidable)){
 	y_spd = 0;
 }
 
+if(pickup_timer <= 0){
+	x += x_spd;
+	y += y_spd;
+}	
+else {
+	pickup_timer--;
+}
 
-x += x_spd;
-y += y_spd;
 
 
 // monster

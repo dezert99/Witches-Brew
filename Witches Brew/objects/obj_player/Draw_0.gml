@@ -1,5 +1,5 @@
-var anim_length = 9;
-var frame_size = 64;
+var anim_length = 8;
+var frame_size = 32;
 var anim_speed = 12;
 
 if(x_spd < 0){
@@ -19,7 +19,7 @@ else {
 }
 
 //Can be expanded later for customized characters. 
-draw_sprite_part(spr_player, 100, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(player_sprite_scaled, 100, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, x, y);
 depth = -100;
 
 if(x_frame+(anim_length/60) < anim_length){

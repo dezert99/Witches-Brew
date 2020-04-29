@@ -68,7 +68,7 @@ repeat(inv_slots){
 //Crafting
 
 var ii, ix, iy, xx, yy,sx, sy, iitem, inv_grid;
-ii = 0; ix = 0; iy = 0; inv_grid = ds_crafting; xx = 326;
+ii = 0; ix = 0; iy = 0; inv_grid = ds_crafting; xx = 400;
 repeat(craft_slots){
 	
 	xx = craft_slots_x + ((cell_size+x_buffer)*ix*scale);

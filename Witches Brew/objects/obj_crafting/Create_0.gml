@@ -1,17 +1,17 @@
 
 
-scale = 1.5;
+scale = 3;
 cell_size = 32; 
-inv_UI_width = 605;
-inv_UI_height = 192;
+inv_UI_width = 308;
+inv_UI_height = 170;
 
-inv_slots = 17;
-inv_slots_width = 8;
-inv_slots_height = 3;
+inv_slots = 12;
+inv_slots_width = 3;
+inv_slots_height = 4;
 
-craft_slots = 8;
-craft_slots_width = 2;
-craft_slots_height = 4;
+craft_slots = 3;
+craft_slots_width = 3;
+craft_slots_height = 1;
 
 selected_from = "";
 selected_slot = 0;
@@ -22,7 +22,7 @@ m_sloty = 0;
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
-spr_inv_UI = spr_crafting_ui;
+spr_inv_UI = spr_crafting_new;
 spr_inv_items = spr_placeholder_items
 
 spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
@@ -43,12 +43,11 @@ craft_slots_y = inv_UI_y + (40*scale);
 
 is_over_crafting = false;
 
-x_buffer = 2;
+x_buffer = 4;
 y_buffer = 4;
 
 isVisible = false;
 
-ds_inventory = ds_grid_create(2,inv_slots);
 ds_crafting = ds_grid_create(2,craft_slots);
 ds_crafting_recipes = ds_grid_create(2,2);
 
