@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "01278421-0c71-4aad-b20b-ed54ecc1d401",
-            "Value": {
-                "id": "b4012bdb-0e29-4f72-b108-7abd7976a1bb",
-                "resourcePath": "rooms\\rm_house\\rm_house.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "10f643b9-e3bb-4c2c-a165-e49358117654",
             "Value": {
                 "id": "a0d02ba5-e455-46aa-b54d-67867e4c5827",
@@ -319,14 +311,6 @@
             }
         },
         {
-            "Key": "85a0da8b-734a-490c-a531-7f03d742ad14",
-            "Value": {
-                "id": "a25bd485-3610-4974-a8ed-872e08a7a632",
-                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "85f28eaf-6c6c-46ca-b660-d0fbf6c3514c",
             "Value": {
                 "id": "4c73a298-6bf1-4f43-b38f-29b0fe498625",
@@ -524,14 +508,6 @@
                 "id": "87f36c4a-9b59-4642-87d3-c60f5c85f3f8",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cdfaebd6-c95e-4e02-9460-92085586ee95",
-            "Value": {
-                "id": "412777b1-b3c9-4fb6-b78e-d844f3ea4896",
-                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -527,19 +527,19 @@
             }
         },
         {
-            "Key": "cdfaebd6-c95e-4e02-9460-92085586ee95",
-            "Value": {
-                "id": "412777b1-b3c9-4fb6-b78e-d844f3ea4896",
-                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
+<<<<<<< HEAD
             "Key": "cd04d4a9-5d0f-4001-b84f-d15d20f4de62",
             "Value": {
                 "id": "d856c67e-7382-4db6-8187-f54e67d1f4dd",
                 "resourcePath": "sprites\/spr_items\/spr_items.yy",
                 "resourceType": "GMSprite"
+=======
+            "Key": "cdfaebd6-c95e-4e02-9460-92085586ee95",
+            "Value": {
+                "id": "412777b1-b3c9-4fb6-b78e-d844f3ea4896",
+                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
+                "resourceType": "GMObject"
+>>>>>>> master
             }
         },
         {
