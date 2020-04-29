@@ -79,7 +79,7 @@ repeat(craft_slots){
 	sy = (iitem div spr_inv_items_columns)*cell_size;
 	
 	//draw slot and item
-	draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 1);
+	//draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 1);
 	
 	switch(ii){
 		case selected_slot:
@@ -90,7 +90,7 @@ repeat(craft_slots){
 			}
 			if(is_over_crafting){
 				gpu_set_blendmode(bm_add);
-				draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, .3);
+				draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, .1);
 				gpu_set_blendmode(bm_normal);
 			}
 			break;
@@ -136,7 +136,7 @@ if(pickup_slot != -1){
 }
 
 if(is_crafting){
-	draw_healthbar(craft_slots_x,craft_slots_y+110,craft_slots_x+310, craft_slots_y+160,(craft_timer/craft_timer_max)*100,c_black,c_aqua,item_crafting == -1 ? c_red : make_color_rgb(168,230,91), 0,true, true);
+	draw_healthbar(craft_slots_x+14,craft_slots_y-34,craft_slots_x+350, craft_slots_y-28 ,(craft_timer/craft_timer_max)*100,c_black,c_aqua,item_crafting == -1 ? c_red : make_color_rgb(168,230,91), 0,false, false);
 }
 
 

@@ -1,13 +1,13 @@
 
 
-scale = 3;
+scale = 3.5;
 cell_size = 32; 
 inv_UI_width = 308;
 inv_UI_height = 170;
 
-inv_slots = 12;
+inv_slots = 9;
 inv_slots_width = 3;
-inv_slots_height = 4;
+inv_slots_height = 3;
 
 craft_slots = 3;
 craft_slots_width = 3;
@@ -35,11 +35,11 @@ inv_UI_y = (gui_height/2) - (inv_UI_height*.5*scale)+70
 info_x = inv_UI_x + (9*scale);
 //info_y = inv_UI_y + (9*scale);
 
-slots_x = info_x+40;
-slots_y = inv_UI_y + (40*scale)-85;
+slots_x = info_x+45;
+slots_y = inv_UI_y + (40*scale)+3;
 
-craft_slots_x = info_x+423;
-craft_slots_y = inv_UI_y + (40*scale)+175;
+craft_slots_x = info_x+493;
+craft_slots_y = inv_UI_y + (40*scale)+255;
 
 is_over_crafting = false;
 
@@ -57,12 +57,13 @@ num_recipes = 3;
 ds_crafting_recipes[# 0, 0] = 175;
 ds_crafting_recipes[# 1, 0] = 1;
 
-//Potion 4
-ds_crafting_recipes[# 0, 1] = 229;
-ds_crafting_recipes[# 1, 1] = 2;
+ds_crafting_recipes[# 0, 1] = 169;
+ds_crafting_recipes[# 1, 1] = 3;
 
-ds_crafting_recipes[# 0, 2] = 183;
-ds_crafting_recipes[# 1, 2] = 3;
+//Potion 4
+ds_crafting_recipes[# 0, 2] = 229;
+ds_crafting_recipes[# 1, 2] = 2;
+
 
 //Items
 enum item {
@@ -93,38 +94,38 @@ enum item {
 	height = 24 // allows us to get height of enumerator -- good trick
 }
 
-//Potion 1
-ds_inventory[# 0, 0] = item.glow_berry;
-ds_inventory[# 1, 0] = 1;
+////Potion 1
+//ds_inventory[# 0, 0] = item.glow_berry;
+//ds_inventory[# 1, 0] = 1;
 
-ds_inventory[# 0, 1] = item.r_mushroom;
-ds_inventory[# 1, 1] = 1;
+//ds_inventory[# 0, 1] = item.r_mushroom;
+//ds_inventory[# 1, 1] = 1;
 
-ds_inventory[# 0, 2] = item.glow_flower;
-ds_inventory[# 1, 2] = 1;
+//ds_inventory[# 0, 2] = item.glow_flower;
+//ds_inventory[# 1, 2] = 1;
 
-//Potion 2
-ds_inventory[# 0, 3] = item.luck_dice;
-ds_inventory[# 1, 3] = 1;
+////Potion 2
+//ds_inventory[# 0, 3] = item.luck_dice;
+//ds_inventory[# 1, 3] = 1;
 
-ds_inventory[# 0, 4] = item.grow_berry;
-ds_inventory[# 1, 4] = 1;
+//ds_inventory[# 0, 4] = item.grow_berry;
+//ds_inventory[# 1, 4] = 1;
 
-ds_inventory[# 0, 5] = item.purple_rock;
-ds_inventory[# 1, 5] = 1;
+//ds_inventory[# 0, 5] = item.purple_rock;
+//ds_inventory[# 1, 5] = 1;
 
-//Potion 3
-ds_inventory[# 0, 6] = item.green_worm;
-ds_inventory[# 1, 6] = 1;
+////Potion 3
+//ds_inventory[# 0, 6] = 5;
+//ds_inventory[# 1, 6] = 1;
 
-ds_inventory[# 0, 7] = item.rainbow_shell;
-ds_inventory[# 1, 7] = 1;
+//ds_inventory[# 0, 7] = 9;
+//ds_inventory[# 1, 7] = 1;
 
-ds_inventory[# 0, 8] = item.r_mushroom;
-ds_inventory[# 1, 8] = 1;
+//ds_inventory[# 0, 8] = 15;
+//ds_inventory[# 1, 8] = 1;
 
 craft_timer = 0;
-craft_timer_max = 200;
+craft_timer_max = 400;
 is_crafting = false;
 item_crafting = -1;
 
