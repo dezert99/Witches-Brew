@@ -15,3 +15,6 @@ inv_slots = 17;
 
 globalvar ds_inventory;
 ds_inventory = ds_grid_create(2,inv_slots);
+
+globalvar held_items;
+held_items = 0; 

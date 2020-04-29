@@ -112,7 +112,7 @@ if(keyboard_check_pressed(vk_enter)){
 			}
 		}
 		for(var i = 0; i < num_recipes; i++ ){
-			show_debug_message("Craft-Total:"+string(craft_total)+" comparing "+ string(ds_crafting_recipes[# 0, i]));
+			show_debug_message("Craft-Total:"+string(craft_total)+" comparing "+ string(ds_crafting_recipes[# 0, i]) +" :"+ string(i));
 			if(ds_crafting_recipes[# 0, i] == craft_total){
 				show_debug_message("Found a recipe. Craft-Total:"+string(craft_total));
 				item_crafting = ds_crafting_recipes[# 1, i];
