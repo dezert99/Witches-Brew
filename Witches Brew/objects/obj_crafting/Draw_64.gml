@@ -136,7 +136,7 @@ if(pickup_slot != -1){
 }
 
 if(is_crafting){
-	draw_healthbar(craft_slots_x,craft_slots_y+110,craft_slots_x+310, craft_slots_y+160,(craft_timer/craft_timer_max)*100,c_black,c_blue,item_crafting == -1 ? c_red : c_green, 0,true, true);
+	draw_healthbar(craft_slots_x,craft_slots_y+110,craft_slots_x+310, craft_slots_y+160,(craft_timer/craft_timer_max)*100,c_black,c_aqua,item_crafting == -1 ? c_red : make_color_rgb(168,230,91), 0,true, true);
 }
 
 
