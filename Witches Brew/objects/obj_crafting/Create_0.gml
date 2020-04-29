@@ -51,6 +51,8 @@ isVisible = false;
 ds_crafting = ds_grid_create(2,craft_slots);
 ds_crafting_recipes = ds_grid_create(2,2);
 
+num_recipes = 3;
+
 //Chair
 ds_crafting_recipes[# 0, 0] = 175;
 ds_crafting_recipes[# 1, 0] = 1;
@@ -59,8 +61,8 @@ ds_crafting_recipes[# 1, 0] = 1;
 ds_crafting_recipes[# 0, 1] = 229;
 ds_crafting_recipes[# 1, 1] = 2;
 
-ds_crafting_recipes[# 0, 1] = 183;
-ds_crafting_recipes[# 1, 1] = 3;
+ds_crafting_recipes[# 0, 2] = 183;
+ds_crafting_recipes[# 1, 2] = 3;
 
 //Items
 enum item {
@@ -120,6 +122,11 @@ ds_inventory[# 1, 7] = 1;
 
 ds_inventory[# 0, 8] = item.r_mushroom;
 ds_inventory[# 1, 8] = 1;
+
+craft_timer = 0;
+craft_timer_max = 200;
+is_crafting = false;
+item_crafting = -1;
 
 //for(i = 0; i < 5; i++){
 //	ds_inventory[# 0, i] = irandom_range(1,item.height-1);

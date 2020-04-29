@@ -23,16 +23,16 @@ else {
 }
 
 
-show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
+//show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
 
 var nx = i_mousex div cell_xbuff ;
 var ny = i_mousey div cell_ybuff ;
-show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
+//show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
 
 if(nx >= 0 && nx < (is_over_crafting ? craft_slots_width : inv_slots_width) && ny >= 0 && ny < (is_over_crafting ? craft_slots_height : inv_slots_height)){
 	var sx = i_mousex - (nx*cell_xbuff);
 	var sy = i_mousey - (ny*cell_ybuff);
-	show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
+	//show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
 
 	if((sx < cell_size*scale) && (sy < cell_size*scale)){
 		m_slotx = nx;
@@ -97,26 +97,50 @@ else if( ss_item != item.none){
 }
 
 if(keyboard_check_pressed(vk_enter)){
-	var craft_total = 0;
+	var found_items = 0;
 	for(var i = 0 ; i<craft_slots; i++){
 		if(ds_crafting[# 0, i] != 0){
-			craft_total += (ds_crafting[# 0, i] *2) +37;
+			found_items ++;
 		}
 	}
-	for(var i = 0; i < 2; i++ ){
-		if(ds_crafting_recipes[# 0, i] == craft_total){
-			addToInventory(ds_crafting_recipes[# 1, i], 1);	
-			for(var i = 0; i < craft_slots; i++ ){
-				if(ds_crafting[# 0, i] != 0){
-					if(ds_crafting[# 1, i] == 1){
-						ds_crafting[# 1, i] = 0;
-						ds_crafting[# 0, i] = 0;
-					}
-					else {
-						ds_crafting[# 1, i] = ds_crafting[# 1, i]-1;
-					}
+	if(found_items == 3){
+		is_crafting = true;
+		var craft_total = 0;
+		for(var i = 0 ; i<craft_slots; i++){
+			if(ds_crafting[# 0, i] != 0){
+				craft_total += (ds_crafting[# 0, i] *2) +37;
+			}
+		}
+		for(var i = 0; i < num_recipes; i++ ){
+			show_debug_message("Craft-Total:"+string(craft_total)+" comparing "+ string(ds_crafting_recipes[# 0, i]));
+			if(ds_crafting_recipes[# 0, i] == craft_total){
+				show_debug_message("Found a recipe. Craft-Total:"+string(craft_total));
+				item_crafting = ds_crafting_recipes[# 1, i];
+				
+			}
+		}
+		for(var i = 0; i < craft_slots; i++ ){
+			if(ds_crafting[# 0, i] != 0){
+				if(ds_crafting[# 1, i] == 1){
+					ds_crafting[# 1, i] = 0;
+					ds_crafting[# 0, i] = 0;
+				}
+				else {
+					ds_crafting[# 1, i] = ds_crafting[# 1, i]-1;
 				}
 			}
 		}
+	}
+}
+if(is_crafting){
+	craft_timer++;
+	
+	if(craft_timer >= craft_timer_max){
+		if(item_crafting != -1){
+			addToInventory(item_crafting, 1);	
+			item_crafting = -1;
+		}
+		craft_timer = 0;
+		is_crafting = false;
 	}
 }

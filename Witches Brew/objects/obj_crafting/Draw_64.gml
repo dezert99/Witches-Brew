@@ -135,6 +135,10 @@ if(pickup_slot != -1){
 	draw_text_color(mousex,mousey,string(inum), c, c, c, c, 1); 
 }
 
+if(is_crafting){
+	draw_healthbar(craft_slots_x,craft_slots_y+110,craft_slots_x+310, craft_slots_y+160,(craft_timer/craft_timer_max)*100,c_black,c_blue,item_crafting == -1 ? c_red : c_green, 0,true, true);
+}
+
 
 
 
