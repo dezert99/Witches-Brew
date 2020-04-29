@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "154115d0-5ae1-4625-8a8f-434c9407edd9",
+            "Value": {
+                "id": "7392e156-2df9-4aaa-bf20-a89f0f011d1d",
+                "resourcePath": "sounds\\snd_Crows_bk\\snd_Crows_bk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "166155b8-8191-4062-9c9e-6d73c700d8a1",
             "Value": {
                 "id": "eaa88099-4767-4c98-8e23-2d3c2c082315",
@@ -111,9 +119,9 @@
             }
         },
         {
-            "Key": "24cd9434-ccf3-47be-bb5a-ccfbfe745405",
+            "Key": "2239cf3e-c440-4414-baee-f67463ed01e5",
             "Value": {
-                "id": "9eb01866-62f1-4999-8e15-30dfe081b35d",
+                "id": "e8458158-e31a-435e-8787-ac6b89b29481",
                 "resourcePath": "sounds\\snd_A_Slow_Dream\\snd_A_Slow_Dream.yy",
                 "resourceType": "GMSound"
             }
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "91e071d4-dea4-4c2b-bc53-cac5080b7aa1",
+            "Value": {
+                "id": "7987080d-0a9d-4e9a-a0f1-8b7a04b285d3",
+                "resourcePath": "sounds\\snd_Wind_In_Pine_Trees\\snd_Wind_In_Pine_Trees.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "f8523420-b61a-4ddf-9810-8eacf4d47845",
@@ -535,14 +551,6 @@
             }
         },
         {
-            "Key": "bb3187ea-028f-44ea-9aa8-4b64019c8df4",
-            "Value": {
-                "id": "75e189af-499f-43d0-8214-4cca1863a052",
-                "resourcePath": "sounds\\snd_Crows_bk\\snd_Crows_bk.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "bf45b62c-3b65-474f-8144-bf475a170355",
             "Value": {
                 "id": "8ff93869-d185-4665-86aa-d7409ab12806",
@@ -580,14 +588,6 @@
                 "id": "789f3e7a-8cac-45d9-8e94-9b37d497ccad",
                 "resourcePath": "views\/c5fe5c24-ae36-43be-b217-5fd2325ec743.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c6bb47ea-4929-45e6-b866-d936e0fc1b2c",
-            "Value": {
-                "id": "da2d104f-da72-4091-96bf-227b1f8d75cd",
-                "resourcePath": "sounds\\snd_bubbles\\snd_bubbles.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -692,14 +692,6 @@
                 "id": "6296ad9d-80f1-4f8c-b3e7-d8127274cead",
                 "resourcePath": "sprites\/player_sprite_scaled\/player_sprite_scaled.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f07485a2-7812-407e-b972-d658a7e99ab5",
-            "Value": {
-                "id": "4ac646dd-8244-4277-978c-0eea5362ea9b",
-                "resourcePath": "sounds\\snd_Wind_In_Pine_Trees\\snd_Wind_In_Pine_Trees.yy",
-                "resourceType": "GMSound"
             }
         },
         {
