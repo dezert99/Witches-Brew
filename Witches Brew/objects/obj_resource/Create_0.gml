@@ -1,11 +1,15 @@
 randomize();
-scale = 1;
+scale = random_range(.25,.5);
 cell_size = 32; 
-spr_inv_items = spr_placeholder_items
+spr_inv_items = spr_items
 
 spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
 spr_inv_items_rows = sprite_get_height(spr_inv_items)/cell_size;
 
-item_id = irandom_range(1,16);
-quantity = irandom_range(1,7); 
+is_placed = false;
+
+if(item_id == -1) {
+	item_id = irandom_range(4,item.height-1);
+}
+quantity = 1; 
 

@@ -11,7 +11,7 @@ mousey = device_mouse_y_to_gui(0);
 var cell_xbuff = (cell_size+x_buffer)*scale;
 var cell_ybuff = (cell_size+y_buffer)*scale;
 
-if(mousex < 480){
+if(mousex < 947){
 	var i_mousex = mousex - slots_x;
 	var i_mousey = mousey - slots_y;
 	is_over_crafting = false;
@@ -23,16 +23,16 @@ else {
 }
 
 
-//show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
+show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
 
 var nx = i_mousex div cell_xbuff ;
 var ny = i_mousey div cell_ybuff ;
-//show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
+show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
 
 if(nx >= 0 && nx < (is_over_crafting ? craft_slots_width : inv_slots_width) && ny >= 0 && ny < (is_over_crafting ? craft_slots_height : inv_slots_height)){
 	var sx = i_mousex - (nx*cell_xbuff);
 	var sy = i_mousey - (ny*cell_ybuff);
-	//show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
+	show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
 
 	if((sx < cell_size*scale) && (sy < cell_size*scale)){
 		m_slotx = nx;
@@ -91,6 +91,13 @@ else if( ss_item != item.none){
 		pickup_slot = selected_slot;
 		selected_from = is_over_crafting ? "craft": "inventory";
 	}
+	else if(mouse_check_button_pressed(mb_right)){
+		var droppedobj = instance_create_depth(obj_player.x,obj_player.y,-100, obj_resource);
+		
+		droppedobj.item_id = inv_grid[# 0, selected_slot];
+		inv_grid[# 0, selected_slot] = 0;
+		inv_grid[# 1, selected_slot] = 0;
+	}
 }
 
 if(keyboard_check_pressed(vk_enter)){
@@ -102,8 +109,8 @@ if(keyboard_check_pressed(vk_enter)){
 	}
 	for(var i = 0; i < 2; i++ ){
 		if(ds_crafting_recipes[# 0, i] == craft_total){
-			addToInventory1(ds_crafting_recipes[# 1, i], 1);	
-			for(var i = 0; i < 8; i++ ){
+			addToInventory(ds_crafting_recipes[# 1, i], 1);	
+			for(var i = 0; i < craft_slots; i++ ){
 				if(ds_crafting[# 0, i] != 0){
 					if(ds_crafting[# 1, i] == 1){
 						ds_crafting[# 1, i] = 0;

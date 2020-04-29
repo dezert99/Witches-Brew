@@ -40,31 +40,7 @@ isVisible = false;
 
 
 
-//Items
-enum item {
-	none = 0,
-	tomato = 1,
-	potato = 2,
-	carrot = 3,
-	artichock = 4,
-	chilli = 5,
-	gourd = 6,
-	corn = 7, 
-	wood = 8,
-	stone = 9,
-	bucket = 10,
-	chair = 11,
-	picture = 12,
-	axe = 13,
-	potion = 14,
-	starfish = 15,
-	mushroom = 16,
-	potion1 = 17,
-	potion2 = 18,
-	potion3 = 19,
-	potion4 = 20,
-	height = 21 // allows us to get height of enumerator -- good trick
-}
+
 
 //ds_inventory[# 0, 0] = item.bucket;
 //ds_inventory[# 1, 0] = 1;

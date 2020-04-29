@@ -55,10 +55,10 @@ repeat(inv_slots){
 	
 	
 	//draw item number
-	if(iitem > 0 && (pickup_slot != ii || selected_from != "inventory" )){
-		var number = inv_grid[#1, ii];
-		draw_text_color(xx,yy,string(number), c, c, c, c, 1); 
-	}
+	//if(iitem > 0 && (pickup_slot != ii || selected_from != "inventory" )){
+	//	var number = inv_grid[#1, ii];
+	//	draw_text_color(xx,yy,string(number), c, c, c, c, 1); 
+	//}
 	
 	ii++;
 	ix = ii mod inv_slots_width;
@@ -111,10 +111,10 @@ repeat(craft_slots){
 	
 	
 	//draw item number
-	if(iitem > 0 && (pickup_slot != ii || selected_from != "craft" )){
-		var number = inv_grid[#1, ii];
-		draw_text_color(xx,yy,string(number), c, c, c, c, 1); 
-	}
+	//if(iitem > 0 && (pickup_slot != ii || selected_from != "craft" )){
+	//	var number = inv_grid[#1, ii];
+	//	draw_text_color(xx,yy,string(number), c, c, c, c, 1); 
+	//}
 	
 	ii++;
 	ix = ii mod craft_slots_width;
@@ -122,16 +122,17 @@ repeat(craft_slots){
 }
 
 var from_grid = selected_from == "craft" ?  ds_crafting: ds_inventory;
-
+mousex = device_mouse_x_to_gui(0);
+mousey = device_mouse_y_to_gui(0);
 if(pickup_slot != -1){
 	iitem = from_grid[# 0, pickup_slot];
 	sx = (iitem mod spr_inv_items_columns)*cell_size;
 	sy = (iitem div spr_inv_items_columns)*cell_size;
 	draw_sprite_part_ext(
-		spr_inv_items, 0, sx, sy, cell_size, cell_size, mouse_x, mouse_y, scale, scale, c_white, 1
+		spr_inv_items, 0, sx, sy, cell_size, cell_size, mousex, mousey, scale, scale, c_white, 1
 	);
 	var inum = from_grid[# 1, pickup_slot];
-	draw_text_color(mouse_x,mouse_y,string(inum), c, c, c, c, 1); 
+	draw_text_color(mousex,mousey,string(inum), c, c, c, c, 1); 
 }
 
 
