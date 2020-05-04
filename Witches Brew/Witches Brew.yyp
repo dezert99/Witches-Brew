@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "000460bb-c7ca-47c0-96d0-84d94a7ba05c",
+            "Value": {
+                "id": "b1e4a1b2-fc6f-422d-a45e-790f27095da6",
+                "resourcePath": "tilesets\\forest_sprite_forest\\forest_sprite_forest.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "0108a1e5-4394-4d10-9e5b-d3f5a427ca1f",
             "Value": {
                 "id": "86beb8ae-d941-4401-b299-dddd5c76d0f2",
@@ -52,14 +60,6 @@
                 "id": "92584e50-4965-4cef-9bae-f6c5565e40e7",
                 "resourcePath": "sprites\\spr_enemy_02\\spr_enemy_02.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "02f68261-4202-4206-96fe-768003d096b7",
-            "Value": {
-                "id": "478b122d-6e34-4948-b7d7-34ba1eb56bc3",
-                "resourcePath": "sounds\\sound0\\sound0.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "b288b3cd-ce45-40f8-bdfd-d791f49973f8",
+            "Value": {
+                "id": "89468adc-7032-4a12-bf14-f6d15136eb74",
+                "resourcePath": "sprites\\spr_Forest_2_sheet\\spr_Forest_2_sheet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2abde70-8f1a-4e5a-b8da-a59a4d1e963a",
             "Value": {
                 "id": "84be53ce-178b-4bb1-840d-f0d0fd544142",
@@ -675,6 +683,14 @@
             "Value": {
                 "id": "e7cd509d-09cf-4d78-9776-a4484814c697",
                 "resourcePath": "sprites\/spr_tilesheet_new\/spr_tilesheet_new.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de822031-6815-4d45-ae42-671311c42b66",
+            "Value": {
+                "id": "3da99cc7-e06c-4820-a529-2de6c7eca1bd",
+                "resourcePath": "sprites\\spr_well\\spr_well.yy",
                 "resourceType": "GMSprite"
             }
         },
