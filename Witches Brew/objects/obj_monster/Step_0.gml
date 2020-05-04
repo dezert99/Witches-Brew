@@ -134,7 +134,6 @@ else image_index = 0;
 
 /*
 collision_rectangle(x1, y1, x2, y2, obj, prec, notme);
-
 var inst;
 inst = collision_rectangle(50, 50, 200, 100, obj_Ball, false, true);
 if inst != noone

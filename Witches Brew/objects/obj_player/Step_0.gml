@@ -63,6 +63,12 @@ else {
 	pickup_timer--;
 }
 
+// telepots player to 1st room when it touches an enemy
+
+if collision_circle(x,y,25,obj_monster,false,true){
+	room_restart();
+	room_goto(rm_house);
+}
 
 
 // monster
