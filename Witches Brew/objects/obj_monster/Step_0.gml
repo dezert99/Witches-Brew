@@ -27,9 +27,30 @@ if swi_di == 2 {
 	x = origin_x;
 	counter -= 1;
 	if counter < counter_min {
+		swi_di = 3
+	}
+}
+
+// goes down
+if swi_di == 3 {
+	origin_y += 1;
+	y = origin_y;
+	counter += 1;
+	if counter >= counter_max {
+		swi_di = 4
+	}
+}
+// goes up
+if swi_di == 4 {
+	origin_y -= 1;
+	y = origin_y;
+	counter -= 1;
+	if counter < counter_min {
 		swi_di = 1
 	}
 }
+
+
 
 
 /*
@@ -54,17 +75,37 @@ if collision_circle(x + 0,y + 0,cir_rad, obj_player,false,true) and swi_di > 0 {
 // makes it so if the players is far a certain distance away
 // the monster will go back to its origin
 if swi_di == 0{
-	move_towards_point(obj_player.x,obj_player.y, 1);
-	if m_counter > 500 {
-		audio_play_sound(snd_monster,3,false)
-		audio_sound_pitch(snd_monster, 4.0);
-		m_counter = 0
+	// ply_fl_counter > ply_fl_counter_max
+	
+	if en_swi == 0 {
+		move_towards_point(obj_player.x,obj_player.y, 1);
 	}
+	
+	if en_swi == 1 {
+		move_towards_point(obj_player.x,obj_player.y, 3);
+	}
+	
+	ply_fl_counter += 1;
+	
+	
+	if m_counter > m_counter_max {
+		audio_play_sound(snd_monster,3,false);
+		audio_sound_pitch(snd_monster, 4.0);
+		m_counter = 0;
+		if en_swi == 0{
+			en_swi = 1;
+		}
+		
+		if en_swi == 1{
+			en_swi = 0;
+		}
 	m_counter += 1
 	if not collision_circle(x + 0,y + 0,cir_away, obj_player,false,true){
 		swi_di = 7;
 	}
 }
+}
+
 if swi_di = 7 {
 	move_towards_point(o_x,o_y, ret_spd)
 	origin_x = o_x;
@@ -101,5 +142,3 @@ if inst != noone
    with (inst) instance_destroy();
    }
 */
-
-// if collision_circle(x, y, 20, obj_Cursor, false, true)
