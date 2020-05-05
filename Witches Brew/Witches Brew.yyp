@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "2d07f3cf-fad7-4c60-b0d6-24537490dec1",
+            "Value": {
+                "id": "b8ccc031-c647-460e-9156-8074ff412485",
+                "resourcePath": "tilesets\\trees_bushes\\trees_bushes.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "318c1045-a45a-4af3-81a0-6d0db041b6c0",
             "Value": {
                 "id": "4fe0d3ae-4d26-469f-9bb0-80728c98a066",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "b25f1424-ffa3-4dde-badb-afa541d2ab37",
+            "Value": {
+                "id": "2fef06a2-5a74-4106-89e7-57c00abc9fe4",
+                "resourcePath": "tilesets\\witchesBrew_Sheet_2\\witchesBrew_Sheet_2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "b288b3cd-ce45-40f8-bdfd-d791f49973f8",
             "Value": {
                 "id": "89468adc-7032-4a12-bf14-f6d15136eb74",
@@ -628,6 +644,14 @@
                 "id": "789f3e7a-8cac-45d9-8e94-9b37d497ccad",
                 "resourcePath": "views\/c5fe5c24-ae36-43be-b217-5fd2325ec743.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c621649b-917c-4aa0-abaa-02dd269d518e",
+            "Value": {
+                "id": "6219d763-26e3-4a12-9693-27421d68dbab",
+                "resourcePath": "sprites\\WitchesBrewTileSet\\WitchesBrewTileSet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -796,6 +820,14 @@
                 "id": "9ecff4c1-6e2d-4e59-841a-00a028e20f4a",
                 "resourcePath": "objects\\obj_background_music\\obj_background_music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa0a0c72-316e-494e-97bf-38b81a0734b6",
+            "Value": {
+                "id": "ce5694c1-2a11-4155-a532-5f11c3a326d4",
+                "resourcePath": "sprites\\spr_sheet_trees\\spr_sheet_trees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
