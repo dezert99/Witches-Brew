@@ -1,3 +1,8 @@
+// varibles for x and y location\
+
+ply_x = x;
+ply_y = y;
+
 
 
 left = keyboard_check(ord("A"));
@@ -63,6 +68,12 @@ else {
 	pickup_timer--;
 }
 
+// telepots player to 1st room when it touches an enemy
+
+if collision_circle(x,y,25,obj_monster,false,true){
+	room_restart();
+	room_goto(rm_house);
+}
 
 
 // monster

@@ -18,3 +18,10 @@ ds_inventory = ds_grid_create(2,inv_slots);
 
 globalvar held_items;
 held_items = 0; 
+
+globalvar ply_x;
+ply_x = x;
+
+globalvar ply_y;
+ply_y = y;
+
