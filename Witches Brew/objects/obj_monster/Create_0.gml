@@ -10,6 +10,7 @@ counter_min = -1 * counter_max;
 o_x = x;
 o_y = y;
 
+rec_dis = 70
 cir_rad = 140; // radius of enemy going after player
 cir_away = 200; // raduis of when enemy goes back to spawn
 

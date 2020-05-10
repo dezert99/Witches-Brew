@@ -1,3 +1,8 @@
+// varibles for x and y location\
+
+ply_x = x;
+ply_y = y;
+
 
 
 left = keyboard_check(ord("A"));
