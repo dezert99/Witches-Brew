@@ -31,5 +31,3 @@ else {
 if(pickup_timer > 0){
 	draw_healthbar(x,y-10,x+32,y-15,(1-(pickup_timer/pickup_timer_max))*100,c_black,c_red,c_green,0,true,false);
 }
-
-draw_rectangle(bbox_left,bbox_bottom, bbox_right,bbox_top,true)

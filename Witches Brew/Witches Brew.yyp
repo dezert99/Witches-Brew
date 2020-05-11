@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "14680b32-e38e-4e54-82af-4555753d9e36",
+            "Value": {
+                "id": "11b76eee-8db6-4fb4-b808-a729bcc9bad6",
+                "resourcePath": "sounds\\Pangelic\\Pangelic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "147e5c6d-e32d-4497-a819-9507365ba824",
             "Value": {
                 "id": "35438d18-d961-4c6c-b674-1ae6e89cc33a",

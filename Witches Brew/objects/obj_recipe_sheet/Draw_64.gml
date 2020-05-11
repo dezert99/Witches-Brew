@@ -1,2 +1,3 @@
-draw_self();
-
+if(isVisible){
+	draw_self();
+}

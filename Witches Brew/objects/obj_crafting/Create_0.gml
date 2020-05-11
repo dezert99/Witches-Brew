@@ -100,35 +100,35 @@ enum item {
 	height = 25 // allows us to get height of enumerator -- good trick
 }
 
-//Potion 1
-ds_inventory[# 0, 0] = item.glow_berry;
-ds_inventory[# 1, 0] = 1;
+////Potion 1
+//ds_inventory[# 0, 0] = item.glow_berry;
+//ds_inventory[# 1, 0] = 1;
 
-ds_inventory[# 0, 1] = item.r_mushroom;
-ds_inventory[# 1, 1] = 1;
+//ds_inventory[# 0, 1] = item.r_mushroom;
+//ds_inventory[# 1, 1] = 1;
 
-ds_inventory[# 0, 2] = item.glow_flower;
-ds_inventory[# 1, 2] = 1;
+//ds_inventory[# 0, 2] = item.glow_flower;
+//ds_inventory[# 1, 2] = 1;
 
-//Potion 2
-ds_inventory[# 0, 3] = item.luck_dice;
-ds_inventory[# 1, 3] = 1;
+////Potion 2
+//ds_inventory[# 0, 3] = item.luck_dice;
+//ds_inventory[# 1, 3] = 1;
 
-ds_inventory[# 0, 4] = item.grow_berry;
-ds_inventory[# 1, 4] = 1;
+//ds_inventory[# 0, 4] = item.grow_berry;
+//ds_inventory[# 1, 4] = 1;
 
-ds_inventory[# 0, 5] = item.purple_rock;
-ds_inventory[# 1, 5] = 1;
+//ds_inventory[# 0, 5] = item.purple_rock;
+//ds_inventory[# 1, 5] = 1;
 
-//Potion 3
-ds_inventory[# 0, 6] = 5;
-ds_inventory[# 1, 6] = 1;
+////Potion 3
+//ds_inventory[# 0, 6] = 5;
+//ds_inventory[# 1, 6] = 1;
 
-ds_inventory[# 0, 7] = 9;
-ds_inventory[# 1, 7] = 1;
+//ds_inventory[# 0, 7] = 9;
+//ds_inventory[# 1, 7] = 1;
 
-ds_inventory[# 0, 8] = 15;
-ds_inventory[# 1, 8] = 1;
+//ds_inventory[# 0, 8] = 15;
+//ds_inventory[# 1, 8] = 1;
 
 craft_timer = 0;
 craft_timer_max = 400;
