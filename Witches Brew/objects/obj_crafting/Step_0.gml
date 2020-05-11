@@ -11,7 +11,7 @@ mousey = device_mouse_y_to_gui(0);
 var cell_xbuff = (cell_size+x_buffer)*scale;
 var cell_ybuff = (cell_size+y_buffer)*scale;
 
-if(mousex < 947){
+if(mousex < craft_slots_x){
 	var i_mousex = mousex - slots_x;
 	var i_mousey = mousey - slots_y;
 	is_over_crafting = false;
@@ -23,16 +23,16 @@ else {
 }
 
 
-//show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
+show_debug_message("i_x: "+string(i_mousex)+" i_y: "+string(i_mousey)+" m_x: "+string(mousex)+" m_y: "+string(mousey)+" craftin? "+ string(is_over_crafting));
 
 var nx = i_mousex div cell_xbuff ;
 var ny = i_mousey div cell_ybuff ;
-//show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
+show_debug_message("nx: "+string(nx)+" ny: "+string(ny));
 
 if(nx >= 0 && nx < (is_over_crafting ? craft_slots_width : inv_slots_width) && ny >= 0 && ny < (is_over_crafting ? craft_slots_height : inv_slots_height)){
 	var sx = i_mousex - (nx*cell_xbuff);
 	var sy = i_mousey - (ny*cell_ybuff);
-	//show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
+	show_debug_message("sx: "+string(sx)+" sy: "+string(sy));
 
 	if((sx < cell_size*scale) && (sy < cell_size*scale)){
 		m_slotx = nx;

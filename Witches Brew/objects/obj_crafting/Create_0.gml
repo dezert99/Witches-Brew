@@ -27,9 +27,8 @@ spr_inv_items = spr_items
 spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
 spr_inv_items_rows = sprite_get_height(spr_inv_items)/cell_size;
 
-inv_UI_x = (gui_width/2) - (inv_UI_width*.5*scale)+280
-inv_UI_y = (gui_height/2) - (inv_UI_height*.5*scale)+70
-
+inv_UI_x = (gui_width/2) - (inv_UI_width*.5*scale)+(os_type == os_windows ? 0 : 280)
+inv_UI_y = (gui_height/2) - (inv_UI_height*.5*scale)+(os_type == os_windows ? 0 : 70)
 //can be used to draw info if we want
 info_x = inv_UI_x + (9*scale);
 //info_y = inv_UI_y + (9*scale);
