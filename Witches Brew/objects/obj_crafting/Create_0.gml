@@ -5,7 +5,6 @@ cell_size = 32;
 inv_UI_width = 308;
 inv_UI_height = 170;
 
-inv_slots = 9;
 inv_slots_width = 3;
 inv_slots_height = 3;
 
@@ -49,9 +48,10 @@ y_buffer = 4;
 isVisible = false;
 
 ds_crafting = ds_grid_create(2,craft_slots);
-ds_crafting_recipes = ds_grid_create(2,2);
+num_recipes = 4;
 
-num_recipes = 3;
+ds_crafting_recipes = ds_grid_create(2,num_recipes);
+
 
 //Chair
 ds_crafting_recipes[# 0, 0] = 175;
@@ -63,6 +63,10 @@ ds_crafting_recipes[# 1, 1] = 3;
 //Potion 4
 ds_crafting_recipes[# 0, 2] = 229;
 ds_crafting_recipes[# 1, 2] = 2;
+
+//Potion 4
+ds_crafting_recipes[# 0, 3] = 123;
+ds_crafting_recipes[# 1, 3] = 24;
 
 
 //Items
@@ -91,38 +95,39 @@ enum item {
 	flower2 = 21,
 	luck_dice = 22,
 	purple_rock = 23,
-	height = 24 // allows us to get height of enumerator -- good trick
+	final_pot = 24,
+	height = 25 // allows us to get height of enumerator -- good trick
 }
 
-////Potion 1
-//ds_inventory[# 0, 0] = item.glow_berry;
-//ds_inventory[# 1, 0] = 1;
+//Potion 1
+ds_inventory[# 0, 0] = item.glow_berry;
+ds_inventory[# 1, 0] = 1;
 
-//ds_inventory[# 0, 1] = item.r_mushroom;
-//ds_inventory[# 1, 1] = 1;
+ds_inventory[# 0, 1] = item.r_mushroom;
+ds_inventory[# 1, 1] = 1;
 
-//ds_inventory[# 0, 2] = item.glow_flower;
-//ds_inventory[# 1, 2] = 1;
+ds_inventory[# 0, 2] = item.glow_flower;
+ds_inventory[# 1, 2] = 1;
 
-////Potion 2
-//ds_inventory[# 0, 3] = item.luck_dice;
-//ds_inventory[# 1, 3] = 1;
+//Potion 2
+ds_inventory[# 0, 3] = item.luck_dice;
+ds_inventory[# 1, 3] = 1;
 
-//ds_inventory[# 0, 4] = item.grow_berry;
-//ds_inventory[# 1, 4] = 1;
+ds_inventory[# 0, 4] = item.grow_berry;
+ds_inventory[# 1, 4] = 1;
 
-//ds_inventory[# 0, 5] = item.purple_rock;
-//ds_inventory[# 1, 5] = 1;
+ds_inventory[# 0, 5] = item.purple_rock;
+ds_inventory[# 1, 5] = 1;
 
-////Potion 3
-//ds_inventory[# 0, 6] = 5;
-//ds_inventory[# 1, 6] = 1;
+//Potion 3
+ds_inventory[# 0, 6] = 5;
+ds_inventory[# 1, 6] = 1;
 
-//ds_inventory[# 0, 7] = 9;
-//ds_inventory[# 1, 7] = 1;
+ds_inventory[# 0, 7] = 9;
+ds_inventory[# 1, 7] = 1;
 
-//ds_inventory[# 0, 8] = 15;
-//ds_inventory[# 1, 8] = 1;
+ds_inventory[# 0, 8] = 15;
+ds_inventory[# 1, 8] = 1;
 
 craft_timer = 0;
 craft_timer_max = 400;

@@ -11,7 +11,8 @@ y_frame = 0;
 pickup_timer = 0;
 pickup_timer_max = 90;
 
-inv_slots = 17;
+globalvar inv_slots;
+inv_slots = 9;
 
 globalvar ds_inventory;
 ds_inventory = ds_grid_create(2,inv_slots);

@@ -69,10 +69,17 @@ else {
 }
 
 // telepots player to 1st room when it touches an enemy
-
-if collision_circle(x,y,25,obj_monster,false,true){
-	room_restart();
-	room_goto(rm_house);
+enemy = collision_rectangle(x,y,x+32,y+32,obj_monster,false,true)
+if enemy {
+	inv_slots -= 1;
+	if(inv_slots <=3){
+		game_restart();	
+	}
+	if(held_items > inv_slots){
+		held_items = inv_slots;	
+	}
+	
+	instance_destroy(enemy);
 }
 
 
