@@ -52,6 +52,8 @@ num_recipes = 4;
 
 ds_crafting_recipes = ds_grid_create(2,num_recipes);
 
+display_set_gui_size(1920,1080);
+
 
 //Chair
 ds_crafting_recipes[# 0, 0] = 175;

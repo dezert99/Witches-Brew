@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "12e579cd-e8dc-479e-9b0a-592f4f6d247e",
+            "Value": {
+                "id": "8fbea615-afb1-4041-9733-7fbb11c5e444",
+                "resourcePath": "objects\/obj_recipe_sheet\/obj_recipe_sheet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "138d3a80-33ed-4da0-94c6-f3701059468f",
             "Value": {
                 "id": "13b5a365-999a-4a11-967a-a444774e9438",
